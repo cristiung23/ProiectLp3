@@ -33,11 +33,11 @@ data = data[['Data', ' Commodity code', 'Commodity', 'Quantity KG', 'Value USD']
 print(data.head())
 
 # creeam coloana Quantity T luand valoarea corespunzatoare din coloana Quantity KG pe care o impartim la 1000
-data["Quantity T"] = data["Quantity KG"]/1000;
+data["Quantity T"] = data["Quantity KG"]/1000
 print(data.head())
 
 #creeam coloana Value EUR luand valoarea corespunzatoare din coloana Value USD pe care o inmultim cu 0,92
-data["Value EUR"] = data["Value USD"]*0.92;
+data["Value EUR"] = data["Value USD"]*0.92
 print(data.head())
 
 #rearanjam coloanele in ordinea dorita
